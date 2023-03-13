@@ -1,0 +1,17 @@
+EX3:
+
+
+
+#include <stdio.h>
+
+
+int main()
+{
+	int a ,b;
+	printf("Enter two integer numbers : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d%d",&a,&b);
+	printf("Sum: %d",a+b);
+
+}
+

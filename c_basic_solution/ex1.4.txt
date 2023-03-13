@@ -1,0 +1,16 @@
+
+Ex4
+
+
+#include <stdio.h>
+
+
+int main()
+{
+	float a ,b;
+	printf("Enter two floating numbers : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%f%f",&a,&b);
+	printf("product: %f",a*b);
+
+}
